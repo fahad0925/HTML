@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .main-top{
+        display: flex;
+    }
+    .main-profile{
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+    }
+    .profile{
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .hour{
+        background-color: white;
+        width: 200px;
+        padding: 12px 12px;
+        box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 6px;
+        position: absolute;
+        top: 55px;
+        z-index: 300;
+
+        opacity: 0;
+        pointer-events: none;
+
+        display: flex;
+        align-items: center;
+        transition: opacity 0.15s;
+    }
+    .second:hover .hour{
+        opacity: 1;
+    }
+
+
+
+  </style>
+</head>
+<body>
+        <div class="main-top">
+            <div class="second">
+                <img class="main-profile" src="cat2.jpg" alt="">
+                <div class="hour">
+                    <img class="profile" src="cat2.jpg" alt="">
+                    <div>name</div>
+                    <div>15M</div>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex;
+        vertical-align: top;
+        justify-content: top;
+        position: fixed;
+        left: 65px;
+        top: 10px;
+        ">
+            name
+        </div>
+    
+</body>
+</html>

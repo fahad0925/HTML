@@ -1,0 +1,76 @@
+
+    .toh-text{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .exe{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 70px;
+
+    }
+
+    .geo{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .RS{
+        font-size: 40PX;
+    }
+
+    .USD-PAR{
+        color: grey;
+
+    }
+    .ppp{
+        color: red;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin-bottom: 0;
+        
+    }
+
+    .pp{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+
+    .pppp{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .oo{
+        color: gray;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    .ooo{
+        background-color: blue;
+        border: none;
+        border-radius: 18px;
+        height: 30px;
+        width: 90px;
+        margin-left: 260px;
+        color: white;
+        cursor: pointer;
+        
+        
+    }
+    .ooo:hover{
+        opacity: 0.7;
+    }
+    .ooo:active{
+        opacity: 0.3;
+    }
+    
+
+
