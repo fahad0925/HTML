@@ -1,0 +1,516 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p{
+    margin: 0;
+    display: inline-block;
+}
+
+
+.header{
+    height: 60px;
+    background-color: black;
+    border-bottom: solid;
+    border-bottom: solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+
+
+.header-img{
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    border: 3px solid white;
+    display: inline-block;
+    margin-top: 8px;
+    
+    
+}
+
+.header-para{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    
+    
+}
+
+
+.header-menu-div{
+    margin-top: 15px;
+}
+
+.header-option1{
+    color: gray;
+    font-size: 25px;
+    display: inline-block;
+    margin-right: 30px;
+    font-weight: 400;
+
+}
+
+.header-option2{
+    color: gray;
+    font-size: 25px;
+    display: inline-block;
+    margin-right: 30px;
+    font-weight: 400;
+    
+}
+
+.header-option3{
+    color: gray;
+    font-size: 25px;
+    display: inline-block;
+    margin-right: 30px;
+    font-weight: 400;
+    
+}
+
+.header-option4{
+    color: gray;
+    font-size: 25px;
+    display: inline-block;
+    font-weight: 400;
+    margin-right: 30px;
+    
+}
+
+
+
+
+@media screen and (min-width: 280px) and (max-width: 750px) {
+    .header-menu-div{
+        visibility: hidden;
+        background-color: wheat;
+    }
+
+    .headr-1{
+        display: flex;
+        flex-direction: row;
+        margin-top: 23px;
+        
+    }
+
+    .header-para{
+        font-size: 26px;
+    }
+
+    .header-img{
+        margin-top: -7px;
+        margin-left: 10px;
+        height: 25px;
+        width: 25px;
+        border: 2px solid white;
+        border-radius: 14px;
+    }
+.one-thirrd-para{
+    font-size: 15px;
+    width: 180px;
+    margin-top: 6px;
+
+}
+
+
+.one-third-para{
+       
+        padding-top: 50px;
+        text-align: center;
+    }
+
+
+    .one-para{
+        font-size: 45px;
+        width: 150px;
+        margin-left: -20px;
+    
+        margin-bottom: 0;
+    }
+
+    .one-sec-para{
+        font-size: 45px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .one-page-maindiv{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .one-third-para{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
+    .one-button{
+        background-color: orangered;
+        height: 52px;
+        width: 200px;
+    }
+
+    .one-sec-pic{
+        width: 290px;
+        height: 340px;
+        margin-top: -70px;
+        margin-right: 10px;
+
+
+    }
+
+    .page-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        background-color: whitesmoke;
+    }
+
+    .pag-2tex{
+        font-size: 30px;
+        width: 320px;
+    }
+
+    .pagg-2tex{
+        font-size: 15px;
+        width: 310px;
+    }
+    
+    .pg1-search{
+        height: 40px;
+        width: 260px;
+        display: flex;
+        flex-direction: row;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.349);
+    }
+
+    .search-but{
+
+        width: 160px;
+        height: 40px;
+        font-size: 10px;
+
+    }
+
+    ::placeholder{
+        font-size: 15px;
+        margin-left: -15px;
+    }
+    
+
+    .pg1-search-but{
+        height: 30px;
+        width: 100px;
+        font-size: 17px;
+
+    }
+
+    .search-but:focus {
+        outline: 0;
+        font-size: 13px;
+        padding: -15px;
+
+    }
+
+    .pag-one-pdiv{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .page-2-text{
+        margin-bottom: 10px;
+        margin-left: -130px;
+    }
+    .page-2text{
+        margin-bottom: 10px;
+        margin-left: -130px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+    .page-3main-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        height: 1650px;
+    }
+
+    .twopg-onep{
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+
+
+
+
+
+    .forth-main{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        height: 280px;
+    }
+
+
+    .forth-para{
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .medii{
+        width: 290px;
+    }
+
+
+    .five-main{
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+        height: 500px;
+    }
+
+    .five-picone{
+        height: 300px;
+        width: 320px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+
+    .five-p-two{
+        width: 300px;
+    }
+
+    .six-main{
+        height: 600px !important;
+    }
+
+    .six-pic{
+        height: 290px;
+        width: 330px;
+    }
+
+
+    .seven-picc{
+        height: 270px !important;
+        width: 330px !important;
+    }
+
+    .seven-main{
+        height: 600px !important;
+    }
+
+
+    .eight-main{
+        height: 600px !important;
+    }
+
+    .eight-pic{
+        height: 270px !important;
+        width: 330px !important;
+    }
+
+    .nine-main{
+        height: 1300px;
+    }
+
+
+    .nine-p-one{
+        font-size: 30px;
+        width: 200px;
+    }
+
+    .nine-twodiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+
+    }
+
+
+    .nine-imgone{
+        height: 250px;
+        width: 290px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
+
+    .nine-icons{
+        height: 30px;
+        width: 30px;
+        margin: 0 -11px -11px 5px;
+    }
+
+    .nine-para--a{
+        font-size: 20px;
+    }
+
+    .nine-para--b{
+        width: 300px;
+        font-size: 14px;
+    }
+
+
+
+    .ten-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        height: 1400px;
+
+    }
+    .ten-ppp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .ten-pa{
+        font-size: 30px;
+        width: 250px;
+       
+    }
+
+    .ten-pb{
+        width: 320px;
+        margin-left: -5px;
+        font-size: 18px;
+    }
+
+    .ten-twodiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        width: 100vw;
+        background-color: whitesmoke;
+    }
+
+    .ten-pic-onee{
+        height: 200px;
+        width: 200px;
+    }
+
+    .ten-pa-one{
+        width: 280px;
+    }
+
+    .eleven-main{
+        width: 100vw;
+        height: 1000px;
+        background-color: rgba(22, 21, 21, 0.877);
+    }
+
+
+
+    .eleee{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .ele-pa-one{
+        font-size: 29px;
+        
+    }
+
+    .ele-pa-two{
+        width: 300px;
+        font-size: 18px;
+        margin-bottom: 40px;
+        margin-top: 5px;
+        margin-left: 8px;
+       
+    }
+
+
+    .ele-one{
+        height: 300px;
+        width: 100vw;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        
+    }
+    .ele-but{
+        margin-left: 40px;
+    }
+    
+
+
+    .last{
+        display: flex;
+        flex-direction: column;
+     
+    }
+
+    .last-para{
+        margin-left: -140px;
+    }
+
+    .imagggg{
+        visibility: hidden;
+    }
+
+    .li-main{
+        margin-left: -140px;
+    }
+    
+    .li-do{
+        margin-left: -140px;
+    }
+   
+
+
+       
+
+
+    
+
+
+
+
+
+
+}
